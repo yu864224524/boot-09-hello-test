@@ -20,6 +20,7 @@ public class MySpringApplicationRunListener implements SpringApplicationRunListe
     }
 
 
+
     @Override
     public void environmentPrepared(ConfigurableBootstrapContext bootstrapContext, ConfigurableEnvironment environment) {
         System.out.println("MySpringApplicationRunListener....environmentPrepared....");
