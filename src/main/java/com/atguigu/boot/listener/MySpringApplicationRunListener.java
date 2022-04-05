@@ -15,7 +15,7 @@ public class MySpringApplicationRunListener implements SpringApplicationRunListe
 
     @Override
     public void starting(ConfigurableBootstrapContext bootstrapContext) {
-        System.out.println("MySpringApplicationRunListener....starting....1");
+        System.out.println("MySpringApplicationRunListener....starting....12");
 
     }
 
